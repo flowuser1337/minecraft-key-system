@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "argon",
+  "version": "${version}",
+  "name": "Argon",
+  "description": "Argon Client",
+  "authors": [
+    "lvstrng"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/argon/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.lvstrng.argon.Main"
+    ]
+  },
+  "mixins": [
+    "client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "~1.21"
+  }
+}
